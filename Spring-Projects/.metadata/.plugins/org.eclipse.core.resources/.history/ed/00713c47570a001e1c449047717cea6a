@@ -1,0 +1,5 @@
+package com.Practice.Exercise.Dao;
+
+public interface EmployeeServiceImpl implements EmployeeService {
+	
+}

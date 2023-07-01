@@ -1,0 +1,15 @@
+package com.Practice.Exercise;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.ConfigurableApplicationContext;
+
+@SpringBootApplication
+public class SpringBootAuroWiringApplication {
+
+	public static void main(String[] args) {
+		ConfigurableApplicationContext spring = SpringApplication.run(SpringBootAuroWiringApplication.class, args);
+		Alien a = 
+	}
+
+}

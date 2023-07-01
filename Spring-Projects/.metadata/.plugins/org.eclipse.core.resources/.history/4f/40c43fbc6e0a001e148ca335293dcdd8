@@ -1,0 +1,7 @@
+package com.Practice.Exercise;
+
+public class Car {
+	private String name;
+	private String Color;
+	private int year;
+}

@@ -1,0 +1,29 @@
+package com.Practice.Exercise;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+@Component
+public class Vehicle {
+	private int year;
+	private String Color;
+	@Autowired
+	private Car car;
+	public int getYear() {
+		return year;
+	}
+	public void setYear(int year) {
+		this.year = year;
+	}
+	public String getColor() {
+		return "Blue";
+	}
+	public void setColor(String color) {
+		Color = color;
+	}
+	public void simple_setup( ) {
+		System.out.println("Heyy There this is the simple run setup");
+		car.yahoo();
+	}
+	
+}

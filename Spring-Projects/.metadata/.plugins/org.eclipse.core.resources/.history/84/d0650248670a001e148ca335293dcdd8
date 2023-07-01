@@ -1,0 +1,13 @@
+package com.Practice.Exercise;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class SpringBootAuroWiringApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(SpringBootAuroWiringApplication.class, args);
+	}
+
+}
