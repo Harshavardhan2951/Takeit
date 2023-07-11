@@ -1,0 +1,5 @@
+package com.practice.springboot.controller;
+
+public class RegistrationController {
+
+}

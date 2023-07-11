@@ -1,0 +1,17 @@
+package com.practice.springboot.entity.listener;
+
+import org.springframework.context.ApplicationListener;
+
+import com.practice.springboot.entity.User;
+import com.practice.springboot.event.RegistrationCompleteEvent;
+
+public class RegistrationCompleteEventListener implements ApplicationListener<RegistrationCompleteEvent>{
+
+	@Override
+	public void onApplicationEvent(RegistrationCompleteEvent event) {
+		/*Create the Verification token for the user with the link*/
+		/*Send mail to user*/
+		User user = event.getUser();
+	}
+
+}

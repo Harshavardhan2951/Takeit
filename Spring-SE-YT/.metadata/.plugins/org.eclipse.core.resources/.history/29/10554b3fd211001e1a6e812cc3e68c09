@@ -1,0 +1,9 @@
+package com.practice.springboot.controller;
+
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class DepartmentController {
+	/*We have to implement services and repositories*/
+	
+}

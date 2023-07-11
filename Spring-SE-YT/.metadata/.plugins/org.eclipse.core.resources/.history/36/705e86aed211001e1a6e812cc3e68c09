@@ -1,0 +1,17 @@
+package com.practice.springboot.controller;
+
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.practice.springboot.Entity.Department;
+
+@RestController
+public class DepartmentController {
+	/*We have to implement services and repositories*/
+	/*Creating a method to save the Department*/
+	
+	@PostMapping("/departments")
+	public Department saveDepartment() {
+		
+	}
+}

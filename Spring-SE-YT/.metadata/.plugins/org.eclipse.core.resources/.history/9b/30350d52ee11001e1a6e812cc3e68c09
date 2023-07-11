@@ -1,0 +1,10 @@
+package com.practice.springboot.Service;
+
+import com.practice.springboot.Entity.Department;
+
+
+public interface DepartmentService {
+
+	public Department saveDepartment(Department department);
+	
+}
