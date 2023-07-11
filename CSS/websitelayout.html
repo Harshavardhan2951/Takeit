@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>websitelayout</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            margin: 0;
+        }
+        header {
+            background-color: black;
+            color: aliceblue;
+            text-align: center;
+        }
+        .navbar {
+            background-color: black;
+            height: 150px;
+        }
+        aside {
+            width: 40%;
+            float: left;
+            padding: 10px;
+        }
+        section {
+            width: 40%;
+            float: left;
+            padding: 10px;
+        }
+        article {
+            width: 40%;
+            float: left;
+            padding: 10px;
+        }
+        .column {
+            display: inline;
+        }
+    </style>
+</head>
+<body>
+    <!-- Semantic Tags : Keep your content organization
+    better for SEO assists screen readers and other tech for 
+accessible 
+
+    <section> : dependent content
+    <aside> : side  content
+    <article> : independent content
+    -->
+    <header>
+        Header Page
+    </header>
+
+    <nav class="navbar">
+        <ul>
+            <li>Click me 1st</li>
+            <li>Click me 2nd</li>
+            <li>Click me 3rd</li>
+            <li>Click me 4th</li>
+        </ul>
+    </nav>
+
+    <main class="column">
+        <aside>
+            <h2>This is aside</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla tempora veritatis consectetur saepe impedit suscipit nesciunt non debitis tenetur, magnam quo dolore est soluta beatae quia similique molestias quis! Quis!</p>
+        </aside>
+        <section>
+            <h2>This is Section side</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, alias earum vel porro consectetur aliquid molestias quos deleniti iure molestiae modi laborum quas esse consequatur voluptates assumenda ab ipsam rem.</p>
+        </section>
+        <article>
+            <h2>This is Article side</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis earum illum, quis sapiente laborum repellat architecto adipisci sint quae rem quo voluptates omnis saepe itaque illo velit autem corrupti veritatis?</p>
+        </article>
+    </main><br>
+
+    <footer>Footer Page</footer>
+</body>
+</html>

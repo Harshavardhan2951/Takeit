@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animations Page</title>
+    <style>
+        #box {
+            width: 250px;
+            height: 250px;
+            background-color: rgb(164, 108, 216);
+            font-size: 13em;
+            text-align: center;
+            
+            animation-name: colorchange;
+            animation-duration: 10s;
+            animation-play-state: running;
+        }
+        @keyframes slideLeft {
+            from{transform: translateX(100px);}
+        }
+        @keyframes slideRight {
+            to{transform: translateX(100px);}
+        }
+        @keyframes rotate {
+            100%{transform: rotateX(360deg);}
+        }
+        @keyframes colorchange {
+            0%{background-color: aqua;}
+            10%{background-color: rgb(235, 160, 49);}
+            20%{background-color: rgb(243, 239, 27);}
+            30%{background-color: rgb(15, 235, 70);}
+            40%{background-color: rgb(169, 11, 241);}
+            50%{background-color: rgb(247, 10, 49);}
+        }
+    </style>
+</head>
+<body>
+    <h2>Animations Page</h2>
+    <div id="box">Hi</div>
+</body>
+</html>

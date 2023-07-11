@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combinators Page</title>
+    <style>
+        #container {
+            border: 2px dotted rgb(9, 9, 10);
+        }
+        #container + p {
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    <!-- 
+        Combinators : Explains the relationship between listed selectors 
+                            : descendant
+                        > : child
+                        ~ : general sibling
+                        + = adjacent sibling
+     -->
+     <div id="container">
+        <p>This is #1</p>
+        <p>This is #2</p>
+        <div id="box1">
+            <p>This is #3</p>
+        </div>
+     </div>
+     <p>This is #4</p>
+     <p>This is #5</p>
+</body>
+</html>

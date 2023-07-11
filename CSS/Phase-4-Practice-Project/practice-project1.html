@@ -1,0 +1,40 @@
+<script>
+
+function f0(nm){
+    return "Hello " + nm;
+}
+
+function f1(name, g){
+    // do something here 
+   return  g(name);
+
+}
+
+console.log(f1("Luffyyy", f0));
+</script>
+
+
+<script>
+
+    function englishHello(nm){
+        return "roronoa zoro & " + nm;
+    }
+
+    function frenchHello(nm){
+        return "konnichiwa " + nm;
+    }
+    
+    //name : String
+    // g : function 
+    function greeting(name, g){
+        // do something here 
+       return  g(name);    
+    }   
+    
+    // if visitor is from France
+    console.log(greeting("Luffy", frenchHello));
+    // else
+    console.log(greeting("Luffy", englishHello)); 
+    
+    
+    </script>
