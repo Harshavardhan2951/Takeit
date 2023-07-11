@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ternary Operator</title>
+</head>
+<body>
+    <script>
+        /*Ternary Operator : Shortcut for an "if/else statement"
+        Takes 3 operands :
+               1. a condition with ?
+               2. expression if True :
+               3. expression if false
+               
+            Syntax : 
+            conditioin ? expifTrue : expifFalse
+        */
+       let adult = checkAge(21);
+       console.log(adult);
+
+       function checkAge (age) {
+
+        return age >= 18 ? "Yes he is Elder" : "Nope, still younger";
+       }
+    </script>
+</body>
+</html>

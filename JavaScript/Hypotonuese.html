@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hypotenuse Calculator Page</title>
+</head>
+<body>-
+    <h1>Hypotenuse Calculator Page</h1>
+    <label>Side A : </label>
+    <input type="text" id="side_a"><br>
+    <label>Side B : </label>
+    <input type="text" id="side_b"><br>
+    <button type="submit" id="submitbutton">Find Side : C</button>
+    <script>
+        
+        document.getElementById("submitbutton").onclick = function() {
+            a = document.getElementById("side_a").value;
+            b = document.getElementById("side_b").value;
+            let result = Math.pow(a, 2) * Math.pow(b, 2);
+            let c = Math.sqrt(result);
+            console.log("The answer for the squareroot of ",result," is ", c);
+        }
+
+    </script>
+</body>
+</html>

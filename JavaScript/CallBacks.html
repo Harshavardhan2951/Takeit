@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Callbacks</title>
+</head>
+<body>
+    <label id="myLabel"></label>
+    <script>
+        /*Javascript Callbacks :
+            A function passsed as an argument to another
+            function.*/
+        // let total = sum(2, 3);
+        // displayDOM(total);
+
+        // function sum(a,b) {
+        //     let result = a +b;
+        //     return result;
+        // }
+        // function displayConsole(output) {
+        //     console.log(output);
+        // }
+        // function displayDOM(output) {
+        //     document.getElementById("myLabel").innerHTML = output;
+        // }
+        let total = sum(2, 3);
+        displayDOM(total);
+
+        function sum(a, b) {
+            let result =  a + b;
+            return result;
+        }
+
+        function displayConsole(output) {
+            console.log(output);
+        }
+
+        function displayDOM(output) {
+            document.getElementById("myLabel").innerHTML = output;
+        }
+    </script>
+</body>
+</html>

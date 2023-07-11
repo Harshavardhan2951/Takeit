@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checked Property</title>
+</head>
+<body>
+    <h1>Javascript Checked Property</h1>
+    <label for="myCheckbox">Subscribe</label>
+    <input type="checkbox" id="myCheckbox"><br>
+    <button id="myButton">Submit</button>
+    <script>
+        document.getElementById("myButton").onclick = function () {
+            if(document.getElementById("myCheckbox").checked) {
+                console.log("You are Subscribed");
+            }
+            else{
+                console.log("You are Not??");
+            }
+        }
+    </script>
+</body>
+</html>

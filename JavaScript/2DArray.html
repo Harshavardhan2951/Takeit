@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2D Array</title>
+</head>
+<body>
+    <script>
+        let fruits = ["Apple", "Bananna", "Dragon Fruit"];
+        let vegetables = ["Carrot", "Beans", "Cucumber"];
+        let meats = ["Egg", "Chicken", "Mutton", "Fish"];
+
+        let groceryList = [fruits, vegetables, meats];
+        /*To change the name fo the Parameter we use this below*/
+        groceryList[0][0] = "mangodb";
+        for(let i of groceryList) {
+            for(let j of i){
+                console.log(j);
+            }
+        }
+    </script>
+</body>
+</html>
