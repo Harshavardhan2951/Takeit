@@ -1,0 +1,26 @@
+pipelines {
+    agent any
+    parameters {
+        string(name: 'VERSION', defaultValue: '', description: 'version to deploy on prod')
+    }
+       stages{
+        stage("build") {
+            steps {
+                echo 'Successfully builed'
+               
+            }
+        }
+        stage("test") {
+            steps {
+                echo 'Succesfully Tested...'
+                
+            }   
+
+        }
+        stage('deploy') {
+            steps{
+                echo 'Successfully Deployed...'
+            }
+        }
+    }
+}
