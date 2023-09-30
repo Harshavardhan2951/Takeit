@@ -4,7 +4,7 @@
     that can be evaluated to a value
     eg: y = x+5;    
 */
-let student = 30;
+let student = 40;
 
 
 /*Modulus operator gives the remainder as a solution [%] */
