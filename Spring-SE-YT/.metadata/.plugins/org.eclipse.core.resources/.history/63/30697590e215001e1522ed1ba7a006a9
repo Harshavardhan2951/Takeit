@@ -1,0 +1,22 @@
+package com.practice.springboot.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import com.practice.springboot.entity.User;
+import com.practice.springboot.model.UserModel;
+import com.practice.springboot.repository.UserRepository;
+
+@Service
+public class UserServiceImpl implements UserService {
+
+	@Autowired
+	private UserRepository userRepository;
+	@Override
+	public User registerUser(UserModel userModel) {
+		User user = new User();
+		user.setemail()
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

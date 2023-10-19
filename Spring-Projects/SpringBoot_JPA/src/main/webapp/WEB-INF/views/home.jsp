@@ -1,0 +1,16 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<form action = "addAlien">
+		<label>Enter Name</label><input type="text" name = aname><br>
+		<label>Enter ID</label><input type="text" name = aid><br>
+		Click here to Submit<input type="submit">
+	</form>
+</body>
+</html>

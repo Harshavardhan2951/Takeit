@@ -1,0 +1,5 @@
+package com.practice.springboot.error;
+
+public class DepartmentNotFoundException {
+
+}

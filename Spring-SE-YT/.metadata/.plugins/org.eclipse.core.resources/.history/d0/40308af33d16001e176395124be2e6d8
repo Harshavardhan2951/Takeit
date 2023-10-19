@@ -1,0 +1,5 @@
+package com.practice.springboot.entity;
+
+public class VerificationToken {
+
+}

@@ -1,0 +1,13 @@
+package com.Practice.Controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+public class Alien_Controller {
+	/*This is used for the deploying a website such as localhost:8080/*/
+	@RequestMapping("/")
+	public String homes() {
+		return "home.jsp";
+	}
+}

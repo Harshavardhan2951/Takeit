@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array Map</title>
+</head>
+<body>
+    <script>
+        /*Array Map :
+            Executes a provided callback function once for
+             each array element AND creates a new Array*/
+        let number = [1,2,3,4,5,6,7,8,9];
+        let squares = number.map(square);
+        squares.forEach(print)
+       
+
+        function square(result) {
+            return Math.pow(result, 2);
+        }
+
+        function print(result) {
+            console.log(result);
+        }
+       
+
+    </script>
+</body>
+</html>

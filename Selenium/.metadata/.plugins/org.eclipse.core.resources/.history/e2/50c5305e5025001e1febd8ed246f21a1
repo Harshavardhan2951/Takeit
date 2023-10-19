@@ -1,0 +1,19 @@
+package com.practice.project1;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.edge.EdgeDriver;
+
+public class Advanced_Locating_Elements {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		WebDriver driver = new EdgeDriver();
+		AdvancedXPathCSSSelector(driver);
+		
+	}
+	public static void AdvancedXPathCSSSelector(WebDriver driver) {
+		String baseUrl = "https://github.com/awtraining1/sl/blob/main/PHASE5/afternoon/hello-selenium/src/main/resources/test.html";
+		driver.get(baseUrl);
+	}
+
+}

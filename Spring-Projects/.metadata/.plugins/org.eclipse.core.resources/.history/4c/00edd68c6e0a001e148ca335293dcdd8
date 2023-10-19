@@ -1,0 +1,23 @@
+package com.Practice.Exercise;
+
+@Component
+public class Vehicle {
+	private int year;
+	private String Color;
+	public int getYear() {
+		return year;
+	}
+	public void setYear(int year) {
+		this.year = year;
+	}
+	public String getColor() {
+		return Color;
+	}
+	public void setColor(String color) {
+		Color = color;
+	}
+	public void simple_setup( ) {
+		System.out.println("Heyy There this is the simple run setup");
+	}
+	
+}

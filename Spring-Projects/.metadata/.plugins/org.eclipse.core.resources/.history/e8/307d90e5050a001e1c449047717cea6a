@@ -1,0 +1,20 @@
+package com.Practice.Model;
+
+public class Alien {
+	private String aname;
+	private int aid;
+	public String getAname() {
+		return aname;
+	}
+	public void setAname(String aname) {
+		this.aname = aname;
+	}
+	public int getAid() {
+		return aid;
+	}
+	public void setAid(int aid) {
+		this.aid = aid;
+	}
+	
+	
+}

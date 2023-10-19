@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+</head>
+<body>
+    <h1>Welcome to Number Guessing Game</h1>
+    <p>pick a Number b/w 1 - 10</p>
+    <label>Enter a Guess</label>
+    <input id="guessfield">
+    <input type="submit" id="submitbutton">
+    <script>
+        const answer = Math.floor(Math.random() * 10 + 1);
+        let guesses = 0;
+
+        document.getElementById("submitbutton").onclick = function() {
+            let guess = document.getElementById("guessfield").value;
+            guesses += 1;
+            if(guess ==  answer) {
+                alert(`${answer} is the Correct Number Guessed, it took you ${guesses} chances to find it`);
+            }
+            else if(guess < answer) {
+                alert(`Too Small `)
+            }
+            else  {
+                alert("Too High");
+            }
+           
+        }
+    </script>
+</body>
+</html>

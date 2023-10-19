@@ -1,0 +1,6 @@
+1686645401429	Rename package 'com.Practice.Alien'
+1686645422974	Rename type 'AlienController'
+1686645439152	Rename type 'Alien'
+1686671884998	Move 'webapp' to 'static'
+1686672509579	Move 'webapp' to 'main'
+1686672537395	Move 'home.jsp' to 'views'

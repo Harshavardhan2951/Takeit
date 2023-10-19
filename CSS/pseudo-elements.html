@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Elements</title>
+    <style>
+        h1::first-letter{
+            font-size: 200%;
+
+        }
+        p::first-line{
+            color: blue;
+        }
+        p::selection {
+            background-color: brown;
+        }
+        ul li::before {
+            content: ✔;
+        }
+        ul li ::marker{
+            content: 🎉;
+        }
+    </style>
+</head>
+<body>
+    <!-- Pseudo Elements : Keyword added after a selector
+                        that's used to style a specific 
+                        parts of element
+                        
+                        selector::pseudo-element 
+                    -->
+
+    <h1>
+        Hello 
+    </h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam laborum dicta praesentium doloremque placeat iusto aperiam ipsa sunt, vel quisquam ipsum quam, fuga velit architecto libero sit et molestiae accusantium!</p>
+    <ul>
+        <li>Mango</li>
+        <li>Apple</li>
+        <li>Orange</li>
+    </ul>
+</body>
+</html>

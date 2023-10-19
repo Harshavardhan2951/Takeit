@@ -1,0 +1,17 @@
+package com.practice.springboot.service;
+
+import org.springframework.stereotype.Service;
+
+import com.practice.springboot.entity.User;
+import com.practice.springboot.model.UserModel;
+
+@Service
+public class UserServiceImpl implements UserService {
+
+	@Override
+	public User registerUser(UserModel userModel) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
